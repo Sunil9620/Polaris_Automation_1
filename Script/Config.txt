@@ -3,4 +3,4 @@
 descDirectoryPath = .\Input_Files\Vehicle_Descriptor\
 masterDbc = .\Input_Files\Master_DBC\Polaris_j1939.dbc
 secondDbc = .\Input_Files\Master_DBC\j1939.dbc
-outputDirectoryPath = .\Output_Files\Vehicle1
+outputDirectoryPath = E:\Output_Files\Vehicle1
