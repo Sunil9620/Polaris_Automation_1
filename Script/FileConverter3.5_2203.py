@@ -38,6 +38,14 @@ def convert_to_dbc(descDirectoryPath, masterDbc, secondDbc, outputDirectoryPath,
     Input: Descriptor files path, master dbc file, can matrix path and output files directory path
     Returns: None    
     '''
+    import os
+    import shutil
+    
+    for root, dirs, files in os.walk(outputDirectoryPath):
+        for f in files:
+            os.unlink(os.path.join(root, f))
+        for d in dirs:
+            shutil.rmtree(os.path.join(root, d))
     secondDbcName = os.path.basename(secondDbc)
     for file in os.listdir(descDirectoryPath):
         if file.endswith(".txt"):
