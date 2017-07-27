@@ -1,6 +1,6 @@
 [Config]
 
-descDirectoryPath = .\Input_Files\Vehicle_Descriptor\
+descDirectoryPath = E:\Input_Files\Vehicle_Descriptor\
 masterDbc = .\Input_Files\Master_DBC\Polaris_j1939.dbc
 secondDbc = .\Input_Files\Master_DBC\j1939.dbc
 outputDirectoryPath = E:\Output_Files\Vehicle1
